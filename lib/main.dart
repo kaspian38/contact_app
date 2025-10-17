@@ -22,8 +22,6 @@ class MyApp extends StatelessWidget {
 
 class ContactListPage extends StatelessWidget {
   const ContactListPage({super.key});
-
-  // Sample contact data
   final List<Map<String, String>> contacts = const [
     {"name": "Kaspian", "number": "+880 1745262631"},
     {"name": "Amira", "number": "+880 1987 654321"},
